@@ -10,7 +10,7 @@ public class Avion extends Thread {
 
     @Override
     public void run() {
-        this.a = new Aeroport();
+        this.a = Aeroport.getInstance();
         System.out.println("Je suis avion " + this.nom + " sur aeroport " + this.a);
     }
 }
