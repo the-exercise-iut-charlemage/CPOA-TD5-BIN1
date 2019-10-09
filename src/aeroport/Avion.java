@@ -12,5 +12,11 @@ public class Avion extends Thread {
     public void run() {
         this.a = Aeroport.getInstance();
         System.out.println("Je suis avion " + this.nom + " sur aeroport " + this.a);
+
+        while (!a.autoriserDecoller()) {
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {}
+        }
     }
 }
