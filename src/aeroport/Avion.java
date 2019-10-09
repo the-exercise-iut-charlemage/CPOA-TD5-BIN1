@@ -11,6 +11,6 @@ public class Avion extends Thread {
     @Override
     public void run() {
         this.a = new Aeroport();
-        System.out.println("Je suis avion " + this.nom + "sur aeroport " + this.a);
+        System.out.println("Je suis avion " + this.nom + " sur aeroport " + this.a);
     }
 }
