@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="509.0" y="488.0">tp5_frabrique.fabrique.FabriqueVoiture</node>
+    <node x="759.0" y="488.0">tp5_frabrique.fabrique.FabriqueBus</node>
+    <node x="467.0" y="263.0">tp5_frabrique.Bus</node>
+    <node x="328.0" y="263.0">tp5_frabrique.Pieton</node>
+    <node x="200.0" y="0.0">tp5_frabrique.Vehicule</node>
+    <node x="0.0" y="263.0">tp5_frabrique.Bicyclette</node>
+    <node x="381.75" y="373.0">tp5_frabrique.fabrique.FabriqueVehicule</node>
+    <node x="250.00000000000003" y="488.0">tp5_frabrique.fabrique.FabriqueBicyclette</node>
+    <node x="179.0" y="263.0">tp5_frabrique.Voiture</node>
+    <node x="0.0" y="488.0">tp5_frabrique.fabrique.FabriquePieton</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tp5_frabrique.fabrique.FabriqueVoiture" target="tp5_frabrique.fabrique.FabriqueVehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="624.0" y="468.0" />
+      <point x="525.5" y="468.0" />
+      <point x="28.75" y="32.5" />
+    </edge>
+    <edge source="tp5_frabrique.Bus" target="tp5_frabrique.Vehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="516.5" y="238.0" />
+      <point x="402.125" y="238.0" />
+      <point x="86.625" y="106.5" />
+    </edge>
+    <edge source="tp5_frabrique.Voiture" target="tp5_frabrique.Vehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="243.5" y="238.0" />
+      <point x="286.625" y="238.0" />
+      <point x="-28.875" y="106.5" />
+    </edge>
+    <edge source="tp5_frabrique.Pieton" target="tp5_frabrique.Vehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="387.5" y="238.0" />
+      <point x="344.375" y="238.0" />
+      <point x="28.875" y="106.5" />
+    </edge>
+    <edge source="tp5_frabrique.fabrique.FabriqueBicyclette" target="tp5_frabrique.fabrique.FabriqueVehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="369.5" y="468.0" />
+      <point x="468.0" y="468.0" />
+      <point x="-28.75" y="32.5" />
+    </edge>
+    <edge source="tp5_frabrique.fabrique.FabriquePieton" target="tp5_frabrique.fabrique.FabriqueVehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="115.0" y="458.0" />
+      <point x="410.5" y="458.0" />
+      <point x="-86.25" y="32.5" />
+    </edge>
+    <edge source="tp5_frabrique.fabrique.FabriqueBus" target="tp5_frabrique.fabrique.FabriqueVehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="874.0" y="458.0" />
+      <point x="583.0" y="458.0" />
+      <point x="86.25" y="32.5" />
+    </edge>
+    <edge source="tp5_frabrique.Bicyclette" target="tp5_frabrique.Vehicule">
+      <point x="0.0" y="-32.5" />
+      <point x="79.5" y="238.0" />
+      <point x="228.875" y="238.0" />
+      <point x="-86.625" y="106.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="568.0" y="195.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
